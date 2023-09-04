@@ -6,29 +6,16 @@ set_version();
 
 const deckParams = [
   {
-    // Default parameters of FSRS4Anki for global
+    // Sep 4 train. —JT
     "deckName": "global config for FSRS4Anki",
-    "w": [0.4, 0.6, 2.4, 5.8, 4.93, 0.94, 0.86, 0.01, 1.49, 0.14, 0.94, 2.18, 0.05, 0.34, 1.26, 0.29, 2.61],
-    // The above parameters can be optimized via FSRS4Anki optimizer.
-    // For details about the parameters, please see: https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm
-    // User's custom parameters for global
-    "requestRetention": 0.9, // recommended setting: 0.75 ~ 0.95
-    "maximumInterval": 36500,
-    // FSRS only modifies the long-term scheduling. So (re)learning steps in deck options work as usual.
-    // I recommend setting steps shorter than 1 day.
-  },
-  {
-    // Example 1: User's custom parameters for this deck and its sub-decks.
-    "deckName": "MainDeck1",
-    "w": [0.6, 0.9, 2.9, 6.8, 4.72, 1.02, 1, 0.04, 1.49, 0.17, 1.02, 2.15, 0.07, 0.35, 1.17, 0.32, 2.53],
+    "w": [1.5162, 1.5162, 15.3574, 15.3574, 4.8216, 2.2465, 1.811, 0.0, 2.1531, 0.1018, 1.5488, 2.1795, 0.1199, 0.376, 1.4117, 0.3206, 3.6493],
     "requestRetention": 0.9,
     "maximumInterval": 36500,
   },
   {
-    // Example 2: User's custom parameters for this deck and its sub-decks.
-    // Don't omit any keys.
-    "deckName": "MainDeck2::SubDeck::SubSubDeck",
-    "w": [0.6, 0.9, 2.9, 6.8, 4.72, 1.02, 1, 0.04, 1.49, 0.17, 1.02, 2.15, 0.07, 0.35, 1.17, 0.32, 2.53],
+    //Sep 3 train. —JT
+    "deckName": "French Sentences",
+    "w": [0.3332, 0.5476, 1.1536, 1.896, 5.0569, 1.7375, 1.0648, 0.0247, 1.6976, 0.1, 1.1327, 2.2236, 0.0292, 0.2589, 1.894, 0.886, 2.61],
     "requestRetention": 0.9,
     "maximumInterval": 36500,
   }
@@ -36,7 +23,7 @@ const deckParams = [
 
 // To turn off FSRS in specific decks, fill them into the skip_decks list below.
 // Please don't remove it even if you don't need it.
-const skip_decks = ["MainDeck3", "MainDeck4::SubDeck"];
+const skip_decks = ["PLACEHOLDER"];
 
 // "Fuzz" is a small random delay applied to new intervals to prevent cards from
 // sticking together and always coming up for review on the same day
@@ -44,7 +31,7 @@ const enable_fuzz = true;
 
 // FSRS supports displaying memory states of cards.
 // Enable it for debugging if you encounter something wrong.
-const display_memory_state = false;
+const display_memory_state = true;
 
 // Configuration End
 
