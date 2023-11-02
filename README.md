@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/open-spaced-repetition/fsrs4anki/wiki">
-    <img src="https://user-images.githubusercontent.com/32575846/210218310-4575b0f3-c570-4c5f-acec-9d35206fc920.png" width="150" height="150" alt="FSRS4Anki">
+    <img src="https://github.com/open-spaced-repetition/fsrs4anki/assets/32575846/9efb2ca5-51bd-411d-9694-a77b09f51fa7" width="150" height="150" alt="FSRS4Anki">
   </a>
 </p>
 
@@ -50,6 +50,9 @@ FSRS4Anki Helper is an Anki add-on that complements the FSRS4Anki Scheduler. You
 # How to Get Started?
 
 中文版请见：[FSRS4Anki 使用指北](https://zhuanlan.zhihu.com/p/636564830)
+
+> [!Important]  
+> FSRS has been natively integrated into Anki v23.10. If you are using Anki v23.10 or newer, refer to [this tutorial](https://github.com/open-spaced-repetition/fsrs4anki/blob/main/docs/tutorial.md). If you are using an older version of Anki, continue reading ahead.
 
 To get started with FSRS, you'll need to follow a two-step process.
 
