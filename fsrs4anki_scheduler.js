@@ -9,7 +9,7 @@ const deckParams = [
     // Dec 3 train. —JT
     "deckName": "global config for FSRS4Anki",
     "w": [1.3116, 1.3116, 16.4175, 16.4175, 4.6781, 2.0335, 1.5918, 0.0, 2.1207, 0.1021, 1.5347, 2.2425, 0.0784, 0.3694, 1.3471, 0.3698, 3.4226],
-    "requestRetention": 0.92,
+    "requestRetention": 0.9,
     "maximumInterval": 36500,
   },
   {
